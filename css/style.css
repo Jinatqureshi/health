@@ -362,17 +362,24 @@ section{
      nav li{
                display: none;
      }
-         
-     .flat .col-md-6{
+     .flat{
+          .col-md-6{
                width: 100%;
                float: none;
+          }
      }
-         
-     .flat-1 .col-md-3, .flat-2 .col-md-6{
+     .flat-1{
+         .col-md-3{
           width: 100%;
           float: none;
+         }
      }
-  
+     .flat-2{
+          .col-md-6{
+               width: 100%;
+               float: none;
+          }
+     }
      .flat-3{
           .col-md-12{
                width: 100%;
@@ -384,11 +391,22 @@ section{
           }
           
      }
-     .flat-4 .col-md-12, .float-4 .col-md-3{
-          width: 100%;
-          float:none;
+     .flat-3 ul{
+          overflow-x: scroll;
+     ::-webkit-scrollbar{
+          width:2px ;
      }
-     
+     }
+     .flat-4{
+          .col-md-12{
+               width: 100%;
+               float:none;
+          }
+          .col-md-3{
+               width: 100%;
+               float: none;
+          }
+     }
      .flat-5{
           .col-md-6{
                width: 100%;
